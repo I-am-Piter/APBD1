@@ -10,12 +10,12 @@ int[] integers = {1, 2, 3, 4, 5};
 Console.WriteLine(CalculateSmth(integers));
 Console.WriteLine(CalculateMax(integers));
 
-static double CalculateSmth(int[] arr)
+static double CalculateSmth(int[] tab1)
 {
-    return arr.Average();
+    return tab1.Average();
 }
 
-static double CalculateMax(int[] arr)
+static double CalculateMax(int[] tab1)
 {
-    return arr.Max();
+    return tab1.Max();
 }
