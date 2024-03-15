@@ -15,7 +15,7 @@ static double CalculateSmth(int[] arr)
     return arr.Average();
 }
 
-static double CalculateMax(int[] tab)
+static double CalculateMax(int[] arr)
 {
-    return tab.Max();
+    return arr.Max();
 }
